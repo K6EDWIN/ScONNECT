@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="events">
+      <section class="container-5">
+        <div class="campus-chronicles-self-manage">
+          Campus Chronicles: Self-Management and Well-Being
+        </div>
+        <div class="campus-chronicles">Campus Chronicles</div>
+        <button class="button-5">
+          <a class="view-more">View more</a>
+        </button>
+        <img class="image-3-icon" alt="" src="./public/image-3-1@2x.png" />
+      </section>
+      <section class="container-4">
+        <div class="vice-chancellors-run">Vice chancellor's Run</div>
+        <div class="vc-run-2024">VC Run 2024</div>
+        <button class="button-4">
+          <a class="view-more1">View more</a>
+        </button>
+        <img
+          class="image-2-icon"
+          loading="lazy"
+          alt=""
+          src="./public/image-2@2x.png"
+        />
+      </section>
+      <header class="container-3">
+        <div class="container-1">
+          <a class="search">Search</a>
+          <img
+            class="magnifying-glass-2"
+            alt=""
+            src="./public/magnifying-glass-2.svg"
+          />
+        </div>
+        <a class="categories" id="categoriesText">Vibe groups </a>
+        <a class="contact" id="contactText">Resources</a>
+        <a class="about" id="aboutText">Calendar</a>
+        <a class="home" id="homeText">Home</a>
+        <button class="button-3">
+          <a class="post-event">Post Event</a>
+        </button>
+        <img
+          class="avatar-1-icon"
+          loading="lazy"
+          alt=""
+          src="./public/avatar-1@2x.png"
+        />
+
+        <img
+          class="image-4-icon"
+          loading="lazy"
+          alt=""
+          src="./public/image-4@2x.png"
+        />
+
+        <div class="depth-5-frame-1">
+          <a class="sconnect">ScONNECT</a>
+        </div>
+      </header>
+      <div class="container-2">
+        <p class="find-the-event">Find the event you're interested in</p>
+        <img
+          class="magnifying-glass-1"
+          alt=""
+          src="./public/magnifying-glass-2.svg"
+        />
+      </div>
+      <h1 class="highlights-this-week">Highlights this week</h1>
+      <div class="button-1">
+        <div class="informative-talks">Informative Talks</div>
+        <img class="info-icon" loading="lazy" alt="" src="./public/info.svg" />
+      </div>
+      <button class="button-2">
+        <div class="competitions">Competitions</div>
+        <img class="emoji-events-icon" alt="" src="./public/emoji-events.svg" />
+      </button>
+      <button class="button-6">
+        <a class="social">Social</a>
+        <img
+          class="logo-instagram-icon"
+          alt=""
+          src="./public/logo-instagram.svg"
+        />
+      </button>
+      <button class="button-7">
+        <div class="sport">Sport</div>
+        <img
+          class="dribbble-logo-icon"
+          alt=""
+          src="./public/dribbble-logo.svg"
+        />
+      </button>
+      <img class="image-3-icon1" alt="" src="./public/image-3-11@2x.png" />
+    </div>
+
+    <script>
+      var categoriesText = document.getElementById("categoriesText");
+      if (categoriesText) {
+        categoriesText.addEventListener("click", function () {
+          window.location.href = "vibe groups.html";
+        });
+      }
+      
+      var contactText = document.getElementById("contactText");
+      if (contactText) {
+        contactText.addEventListener("click", function () {
+          window.location.href = "resources.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function () {
+          window.location.href = "calendar.html";
+        });
+      }
+      
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function () {
+          window.location.href = "homepage.html";
+        });
+      }
+      </script>
+  </body>
+</html>
