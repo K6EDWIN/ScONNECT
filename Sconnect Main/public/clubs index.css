@@ -1,0 +1,309 @@
+.image-1-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.clubs-child,
+.image-2-icon {
+  position: absolute;
+  left: -15px;
+}
+.clubs-child {
+  height: 100%;
+  width: 100%;
+  top: -5px;
+  right: 15px;
+  bottom: 5px;
+  background-color: rgba(23, 26, 31, 0.9);
+}
+.image-2-icon {
+  top: 0;
+  width: 1456px;
+  height: 458px;
+  object-fit: cover;
+}
+.clubs1,
+.welcome-to-the {
+  position: absolute;
+  text-align: center;
+}
+.clubs1 {
+  top: 108px;
+  left: calc(50% - 74px);
+  font-size: 48px;
+  line-height: 68px;
+  font-family: var(--font-epilogue);
+}
+.welcome-to-the {
+  top: 176px;
+  left: calc(50% - 166px);
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  color: #f5f2fd;
+}
+.check-1-icon {
+  position: absolute;
+  top: 120px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+}
+.the-sumg-is {
+  position: absolute;
+  top: 120px;
+  left: 56px;
+  line-height: 26px;
+  display: inline-block;
+  width: 282px;
+  height: 221px;
+}
+.sumg {
+  position: absolute;
+  top: 54px;
+  left: 24px;
+  font-size: var(--font-size-13xl);
+  line-height: 48px;
+  font-family: var(--font-epilogue);
+  color: var(--color-limegreen);
+}
+.award-1-icon {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.learn-more {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 44.5px);
+  line-height: 22px;
+}
+.button-2 {
+  position: absolute;
+  width: calc(100% - 51px);
+  top: 496px;
+  right: 29px;
+  left: 22px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-limegreen);
+  height: 36px;
+  overflow: hidden;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.container-1 {
+  position: absolute;
+  top: 461px;
+  left: calc(50% + 16px);
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 17px 35px rgba(23, 26, 31, 0.24);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 358px;
+  height: 558px;
+  color: var(--color-lightslategray);
+}
+.check-6-icon {
+  position: absolute;
+  top: 125px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+}
+.aiesec,
+.button-21 {
+  position: absolute;
+  left: 24px;
+}
+.aiesec {
+  top: 54px;
+  line-height: 48px;
+  font-family: var(--font-epilogue);
+}
+.button-21 {
+  width: calc(100% - 48px);
+  top: 495px;
+  right: 24px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-lightslategray);
+  height: 36px;
+  overflow: hidden;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.were-a-student-run {
+  position: absolute;
+  top: 120px;
+  left: 27px;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  color: var(--color-lightslategray);
+  display: inline-block;
+  width: 287px;
+}
+.container-2 {
+  position: absolute;
+  top: 460px;
+  left: calc(50% + 374px);
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 17px 35px rgba(23, 26, 31, 0.24);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  border: 2px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 345px;
+  height: 562px;
+  font-size: var(--font-size-13xl);
+  color: #7f7f7f;
+}
+.sconnect {
+  position: absolute;
+  top: 26px;
+  left: 98px;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: var(--font-epilogue);
+}
+.image-3-icon {
+  top: 16px;
+  left: 60px;
+  width: 36px;
+  height: 42px;
+}
+.button-1,
+.check-1-icon1,
+.image-3-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.check-1-icon1 {
+  top: 124px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+}
+.button-1 {
+  width: calc(100% - 48px);
+  top: 498px;
+  right: 38px;
+  left: 10px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-orchid);
+  height: 36px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.whether-youre-a {
+  position: absolute;
+  top: 124px;
+  left: 42px;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  color: var(--color-lightslategray);
+  display: inline-block;
+  width: 274px;
+}
+.container-11 {
+  position: absolute;
+  top: 461px;
+  left: 373px;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 17px 35px rgba(23, 26, 31, 0.24);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  border: 2px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 363px;
+  height: 561px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-orchid);
+}
+.check-1-icon2 {
+  position: absolute;
+  top: 125px;
+  left: 29px;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+}
+.chess-lovers-unite {
+  position: absolute;
+  top: 120px;
+  left: 47px;
+  line-height: 26px;
+  display: inline-block;
+  width: 300px;
+}
+.chess-club {
+  position: absolute;
+  top: 60px;
+  left: 24px;
+  font-size: var(--font-size-13xl);
+  line-height: 48px;
+  font-family: var(--font-epilogue);
+  color: var(--color-rosybrown);
+}
+.learn-more3 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 45px);
+  line-height: 22px;
+}
+.award-1-icon2,
+.button-11 {
+  position: absolute;
+  left: 35px;
+  overflow: hidden;
+}
+.button-11 {
+  width: calc(100% - 48px);
+  top: 499px;
+  right: 13px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-rosybrown);
+  height: 36px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.award-1-icon2 {
+  top: 26px;
+  width: 24px;
+  height: 24px;
+}
+.container-12 {
+  position: absolute;
+  top: 461px;
+  left: -15px;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 17px 35px rgba(23, 26, 31, 0.24);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 388px;
+  height: 564px;
+  color: var(--color-lightslategray);
+}
+.clubs {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  background-color: #0f1a24;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
